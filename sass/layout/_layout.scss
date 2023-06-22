@@ -1,0 +1,20 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 35%;
+  padding: 3rem 0;
+  background-color: var(--color-grey-dark);
+}
+
+.cv-information {
+  flex: 1;
+}
